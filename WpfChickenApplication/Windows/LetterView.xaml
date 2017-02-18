@@ -1,22 +1,14 @@
-﻿<Window
+﻿<Window x:Class="WpfChickenApplication.Windows.LetterView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:local="clr-namespace:WpfChickenApplication" x:Class="WpfChickenApplication.LoginWindow"
-        Title="LoginWindow" Height="768" Width="1366"
+        Title="LetterView" Height="768" Width="1366"
         WindowStyle="None" WindowState="Maximized">
     <Grid>
-        <Ellipse x:Name="exitButton" HorizontalAlignment="Left" Height="45" Margin="1305,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="43" Fill="#FFFB0000" MouseDown="exitButton_MouseDown" MouseEnter="exitButton_MouseEnter" MouseLeave="exitButton_MouseLeave"/>
-        <Button x:Name="registerButton" Content="   Регистрация" HorizontalAlignment="Left" Margin="180,450,0,0" VerticalAlignment="Top" Width="425" Height="135" FontFamily="Palatino Linotype" FontSize="48" FontWeight="Bold" FontStyle="Italic" Click="registerButton_Click"/>
-        <Button x:Name="loginButton" Content="            Вход" HorizontalAlignment="Left" Margin="810,450,0,0" VerticalAlignment="Top" Width="425" Height="135" FontFamily="Palatino Linotype" FontSize="48" FontWeight="Bold" FontStyle="Italic" Click="loginButton_Click"/>
-        <ComboBox x:Name="nameBox" HorizontalAlignment="Left" Margin="180,315,0,0" VerticalAlignment="Top" Width="1055" Height="75" FontFamily="Palatino Linotype" FontWeight="Bold" FontStyle="Italic" FontSize="48"/>
-        <Label Content="Kid's Home School" HorizontalAlignment="Left" Margin="265,175,0,0" VerticalAlignment="Top" Height="135" Width="900" FontFamily="Lucida Handwriting" FontSize="72" FontWeight="Bold" FontStyle="Italic" BorderThickness="30,8,0,0">
-            <Label.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF24F52D" Offset="0"/>
-                    <GradientStop Color="#FFEAF50E" Offset="1"/>
-                </LinearGradientBrush>
-            </Label.Foreground>
-        </Label>
+        <Image x:Name="Letter" HorizontalAlignment="Left" Height="250" Margin="510,10,0,0" VerticalAlignment="Top" Width="605" Source="/WpfChickenApplication;component/Resources/Letters/а.png"/>
+        <Button x:Name="backButton" Content="             Назад" HorizontalAlignment="Left" Margin="66,585,0,0" VerticalAlignment="Top" Width="429" Height="122" FontFamily="Palatino Linotype" FontSize="36" FontWeight="Bold" FontStyle="Italic" Click="backButton_Click"/>
+        <Button x:Name="nextButton" Content="        Продолжить" HorizontalAlignment="Left" Margin="785,585,0,0" VerticalAlignment="Top" Width="430" Height="122" FontFamily="Palatino Linotype" FontSize="36" FontWeight="Bold" FontStyle="Italic" Click="nextButton_Click"/>
+        <Image x:Name="Play" HorizontalAlignment="Left" Height="160" Margin="560,260,0,0" VerticalAlignment="Top" Width="175" Source="/WpfChickenApplication;component/Resources/Backgrounds/Play.png" MouseEnter="play_MouseEnter" MouseLeave="play_MouseLeave" MouseDown="play_MouseDown"/>
+        <MediaElement Name="player" HorizontalAlignment="Left" Height="100" Margin="395,260,0,0" VerticalAlignment="Top" Width="100" Visibility="Hidden" Volume="1" LoadedBehavior="Manual"/>
     </Grid>
     <Window.Resources>
         <GradientStopCollection x:Key="MyGlassGradientStopsResource">

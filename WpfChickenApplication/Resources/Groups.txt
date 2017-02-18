@@ -1,0 +1,27 @@
+Фрукты и ягоды:Level1Images\арбуз,Level1Images\вишня
+Птицы:Level1Images\петух,Level1Images\утка
+Мебель:Level2Images\стул,Level2Images\шкаф
+Фрукты и ягоды:Level1Images\яблоко,Level1Images\груша
+Животные:Level1Images\баран,Level1Images\ёжик
+Посуда:Level2Images\тарелка,Level2Images\чайник
+Животные:Level1Images\лев,Level1Images\носорог
+Мебель:Level1Images\диван,Level2Images\шкаф
+Птицы:Level1Images\индюк,Level1Images\курица
+Животные:Level1Images\осёл,Level1Images\енот
+Фрукты и ягоды:Level1Images\груша,Level1Images\малина
+Еда:Level1Images\йогурт,Level1Images\эскимо
+Погода:Level2Images\дождь,Level2Images\солнце
+Игрушки:Level2Images\кукла,Level2Images\машина
+Посуда:Level1Images\чашка,Level2Images\тарелка
+Животные:Level1Images\енот,Level1Images\зебра
+Фигуры:Level2Images\квадрат,Level2Images\круг
+Праздник:Level2Images\подарок,Level1Images\шарик
+Еда:Level1Images\хлеб,Level1Images\печенье
+Одежда:Level2Images\платье,Level2Images\пиджак
+Погода:Level2Images\ветер,Level2Images\дождь
+Работа:Level2Images\врач,Level2Images\повар
+Фигуры:Level2Images\круг,Level2Images\ромб
+Игрушки:Level2Images\кукла,Level2Images\робот
+Одежда:Level1Images\юбка,Level2Images\платье
+Еда:Level1Images\торт,Level2Images\конфета
+Работа:Level2Images\повар,Level2Images\пожарник
